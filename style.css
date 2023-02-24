@@ -1,0 +1,53 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #09DBA4;
+}
+
+#Tittle{
+    text-align: center;
+    background-color: #1B8F70;
+    margin: auto;
+    width: 600px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.TittleVídeo{
+    background-color: #dc143c;
+    text-align: center;
+    padding: 8px;
+    border-radius: 40px;
+    /* Topo, direita, inferior, esquerda */
+    margin: 5px 0px 10px 0px;
+    font-size: 30px;
+}
+
+#VídeoList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.Thumb,img{
+    align-items: center;
+}
+
+img{
+    max-width: 400px;
+    padding: 1rem;
+
+}
+
+
+.Thumb{
+    margin: 15px;
+
+}
